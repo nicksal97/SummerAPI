@@ -1,0 +1,5 @@
+/* Ensure Mapbox map never overlaps UI */
+.mapboxgl-canvas,
+.mapboxgl-control-container {
+  z-index: 0 !important;
+}
